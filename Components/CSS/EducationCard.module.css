@@ -1,0 +1,36 @@
+.contactInf {
+    padding-top: 40px;
+}
+
+.title {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+li {
+    margin-bottom: 15px;
+
+}
+
+h5 {
+    color: #03a9f4;
+    font-weight: 500;
+}
+
+h4:nth-child(2) {
+    color: #fff;
+    font-weight: 500;
+}
+
+h4 {
+    color: #fff;
+    font-weight: 300;
+}
+
+.contactInf.education h4 {
+    color: #fff;
+    font-weight: 300;
+}

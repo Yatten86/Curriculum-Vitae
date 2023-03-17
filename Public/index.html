@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React App</title>
+
+    <!-- sets the style for the general page -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+        
+        *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+        }
+
+        body{   
+            background: lightblue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+    </style>
+
+    <script>
+        let docTitle = document.title;
+        window.addEventListener("blur", () => {
+            document.title = "Come Back :(";
+        })
+        window.addEventListener("focus", () =>{
+            document.title = docTitle;
+        })
+    </script>
+</head>
+<body>
+    <div id="root"></div>
+</body>
+</html>
